@@ -13,6 +13,11 @@ $(call inherit-product, vendor/rr/config/common_full_phone.mk)
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# RR Stuffs
+TARGET_FACE_UNLOCK_SUPPORTED := true
+RR_BUILDTYPE := UNOfficial
+WITH_GAPPS := true
+
 # Device identifier
 PRODUCT_NAME := rr_miatoll
 PRODUCT_DEVICE := miatoll
