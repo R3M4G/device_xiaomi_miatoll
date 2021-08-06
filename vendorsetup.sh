@@ -8,15 +8,15 @@ rm -rf hardware/qcom-caf/sm8150/media
 git clone https://github.com/itsxrp/android_hardware_qcom_media -b arrow-11.0-caf-sm8150 hardware/qcom-caf/sm8150/media
 # Device Trees
 rm -rf device/xiaomi/sm6250-common
-git clone https://github.com/itsxrp/device_xiaomi_sm6250-common.git -b octavi device/xiaomi/sm6250-common
+git clone https://github.com/R3M4G/android_device_xiaomi_sm6250-common.git -b eleven device/xiaomi/sm6250-common
 
 rm -rf vendor/xiaomi/sm6250-common
-git clone https://github.com/itsxrp/vendor_xiaomi_sm6250-common.git -b eleven vendor/xiaomi/sm6250-common
+git clone https://github.com/R3M4G/android_vendor_xiaomi_sm6250-common.git -b eleven vendor/xiaomi/sm6250-common
 
 rm -rf vendor/xiaomi/miatoll
-git clone https://github.com/itsxrp/vendor_xiaomi_miatoll.git -b eleven vendor/xiaomi/miatoll
+git clone https://github.com/R3M4G/android_vendor_xiaomi_miatoll.git -b eleven vendor/xiaomi/miatoll
 rm -rf kernel/xiaomi/sm6250
-git clone https://github.com/itsxrp/android_kernel_xiaomi_sm6250.git -b eleven kernel/xiaomi/sm6250
+git clone https://github.com/R3M4G/positron_miatoll.git -b eleven kernel/xiaomi/sm6250
 
 #Lineage Hardware/Xiaomi
 rm -rf hardware/xiaomi
