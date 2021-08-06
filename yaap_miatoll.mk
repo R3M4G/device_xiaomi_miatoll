@@ -15,18 +15,17 @@
 #
 
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
+scr_resolution := 1080
+TARGET_SCREEN_HEIGHT := 2240
+TARGET_SCREEN_WIDTH := 1080
+# Yaap Official & Maintainer
 
-PRODUCT_NAME := octavi_miatoll
+PRODUCT_NAME := yaap_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Octavi Official & Maintainer
-OCTAVI_BUILD_TYPE=Official
-OCTAVI_DEVICE_MAINTAINER := XRPDigital
