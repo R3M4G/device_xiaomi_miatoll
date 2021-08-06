@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_miatoll.mk
+    $(LOCAL_DIR)/yaap_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_miatoll-user \
-    octavi_miatoll-userdebug \
-    octavi_miatoll-eng
+    yaap_miatoll-user \
+    yaap_miatoll-userdebug \
+    yaap_miatoll-eng
