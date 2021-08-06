@@ -27,6 +27,7 @@ rm -rf vendor/qcom/opensource/commonsys/system/bt && git clone https://github.co
 rm -rf vendor/qcom/opensource/commonsys/packages/apps/Bluetooth && git clone https://github.com/ShapeShiftOS/android_vendor_qcom_opensource_packages_apps_Bluetooth.git -b android_11 vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
 rm -rf packages/apps/Bluetooth && git clone https://github.com/ShapeShiftOS/android_packages_apps_Bluetooth.git -b android_11 packages/apps/Bluetooth
 #Clone Proton
+rm -rf prebuilts/clang/host/linux-x86/clang-proton
 git clone https://github.com/kdrag0n/proton-clang.git prebuilts/clang/host/linux-x86/clang-proton --depth=1
 #Adding Vibrator
 rm -rf vendor/qcom/opensource/vibrator
